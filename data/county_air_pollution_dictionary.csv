@@ -1,0 +1,5 @@
+column_name,data_type,description,notes
+county_fips,text,5-digit county FIPS code,Join key to county population table
+year,integer,Calendar year for air pollution measurements,One year included in this demo
+pm25_annual,float,Annual average PM2.5 concentration (µg/m³),Higher values indicate poorer air quality
+ozone_days_unhealthy,integer,Days in year with unhealthy ozone levels,Simplified count metric

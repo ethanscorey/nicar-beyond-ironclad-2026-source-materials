@@ -1,0 +1,5 @@
+column_name,data_type,description,notes
+income_bracket,text,Household income category,One row per bracket
+households,integer,Number of households in bracket,Useful context column
+white_residents,integer,Residents identifying as White alone (non-Hispanic) in bracket,Numerator for percentage calculation
+total_residents,integer,Total residents in bracket,Denominator for weighted calculations

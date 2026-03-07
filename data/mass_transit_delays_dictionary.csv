@@ -1,0 +1,7 @@
+column_name,data_type,description,notes
+route_id,text,Unique mass transit route identifier,Primary key with month
+month,date (YYYY-MM),Reporting month,One row per route per month
+scheduled_trips,text numeric,Number of trips planned in that month,Contains commas as thousands separators
+completed_trips,text numeric,Number of trips actually completed in that month,Contains commas as thousands separators
+avg_delay_minutes,float,Average delay in minutes for completed trips,Already numeric
+ridership,text numeric,Estimated total riders in that month,Contains commas as thousands separators

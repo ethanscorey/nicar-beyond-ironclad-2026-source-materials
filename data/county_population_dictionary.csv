@@ -1,0 +1,5 @@
+column_name,data_type,description,notes
+county_fips,text,5-digit county FIPS code,Leading zeros must be preserved
+county_name,text,County name,Human-readable label
+state,text,2-letter USPS state abbreviation,Used for filtering or grouping
+population,integer,Estimated county population,Used as denominator or weight
