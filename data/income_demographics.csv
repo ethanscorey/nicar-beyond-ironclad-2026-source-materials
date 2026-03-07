@@ -1,5 +1,9 @@
-income_bracket,households,white_residents,total_residents
-Less than $40k,24000,15600,42000
-$40k to $80k,18000,20100,36000
-$80k to $150k,9000,15750,21000
-$150k+,3000,7200,9000
+state,income_bracket,households,white_residents,total_residents
+CA,Less than $40k,14000,7000,32000
+TX,Less than $40k,10000,8600,10000
+CA,$40k to $80k,9000,9000,18000
+TX,$40k to $80k,9000,11100,18000
+CA,$80k to $150k,5000,9000,12000
+TX,$80k to $150k,4000,6750,9000
+CA,$150k+,1800,5400,7200
+TX,$150k+,1200,1800,1800
