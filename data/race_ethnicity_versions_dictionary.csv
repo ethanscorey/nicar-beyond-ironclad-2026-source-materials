@@ -1,6 +1,11 @@
 column_name,data_type,description,notes
 region,text,Geographic reporting area,One row per district
-total_population,integer,Total district population,Useful for weighted aggregation
-b02001_002e_pct,float,Percent from ACS estimate B02001_002E (White alone),Race-only concept and can include Hispanic respondents
-b03002_003e_pct,float,"Percent from ACS estimate B03002_003E (White alone, not Hispanic or Latino)",Mutually exclusive with Hispanic category
-b03002_012e_pct,float,"Percent from ACS estimate B03002_012E (Hispanic or Latino, any race)",Ethnicity measure and not a race category
+total_population,integer,Total district population denominator,Use this to calculate percentages
+b02001_002e,integer,ACS B02001_002E White alone count,Race category includes people of Hispanic ethnicity
+b02001_003e,integer,ACS B02001_003E Black or African American alone count,Race category includes people of Hispanic ethnicity
+b02001_004e,integer,ACS B02001_004E American Indian and Alaska Native alone count,Race category includes people of Hispanic ethnicity
+b02001_005e,integer,ACS B02001_005E Asian alone count,Race category includes people of Hispanic ethnicity
+b02001_006e,integer,ACS B02001_006E Native Hawaiian and Other Pacific Islander alone count,Race category includes people of Hispanic ethnicity
+b02001_007e,integer,ACS B02001_007E Some other race alone count,Race category includes people of Hispanic ethnicity
+b02001_008e,integer,ACS B02001_008E Two or more races count,Race category includes people of Hispanic ethnicity
+b03003_003e,integer,ACS B03003_003E Hispanic or Latino count,Ethnicity and overlaps with all race categories above
