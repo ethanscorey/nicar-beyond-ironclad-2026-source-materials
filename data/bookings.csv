@@ -1,0 +1,7 @@
+booking_id,person_id,booking_date,date_of_birth,release_date,charge
+B1001,P001,2024-01-12,1995-08-03,2024-01-14,Shoplifting
+B1002,P002,2024-02-22,1988-11-19,2024-02-24,DUI
+B1003,P003,2024-03-03,2001-06-21,2024-03-03,Probation violation
+B1004,P004,1989-07-14,1989-07-14,2024-08-01,Reckless driving
+B1005,P005,2024-04-11,1979-12-05,2024-04-13,Disorderly conduct
+B1006,P006,2024-05-09,1999-02-17,2024-05-10,Trespassing
