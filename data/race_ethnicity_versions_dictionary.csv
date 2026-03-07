@@ -3,4 +3,4 @@ region,text,Geographic reporting area,One row per district
 total_population,integer,Total district population,Useful for weighted aggregation
 b02001_002e_pct,float,Percent from ACS estimate B02001_002E (White alone),Race-only concept and can include Hispanic respondents
 b03002_003e_pct,float,"Percent from ACS estimate B03002_003E (White alone, not Hispanic or Latino)",Mutually exclusive with Hispanic category
-b03002_012e_pct,float,Percent from ACS estimate B03002_012E (Hispanic or Latino, any race),Ethnicity measure and not a race category
+b03002_012e_pct,float,"Percent from ACS estimate B03002_012E (Hispanic or Latino, any race)",Ethnicity measure and not a race category
