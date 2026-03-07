@@ -1,5 +1,6 @@
 column_name,data_type,description,notes
-income_bracket,text,Household income category,One row per bracket
-households,integer,Number of households in bracket,Useful context column
-white_residents,integer,Residents identifying as White alone (non-Hispanic) in bracket,Numerator for percentage calculation
-total_residents,integer,Total residents in bracket,Denominator for weighted calculations
+state,text,State abbreviation for each row,Multiple rows exist per income bracket because data are split by state
+income_bracket,text,Household income category,Repeat categories across states to support grouping exercises
+households,integer,Number of households in bracket within state,Useful context column
+white_residents,integer,Residents identifying as White alone (non-Hispanic) in bracket and state,Numerator for percentage calculation
+total_residents,integer,Total residents in bracket and state,Denominator for weighted calculations
