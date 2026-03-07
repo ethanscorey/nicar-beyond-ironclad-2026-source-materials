@@ -1,0 +1,7 @@
+column_name,data_type,description,notes
+booking_id,text,Unique jail booking identifier,Primary key
+person_id,text,Unique person identifier in this sample,One person can have multiple bookings in real systems
+booking_date,date,Date person was booked into jail,Should be on/after date_of_birth
+date_of_birth,date,Recorded date of birth for the booked person,Manual entry errors are possible
+release_date,date,Date person was released,Should usually be on/after booking_date
+charge,text,Primary booking charge,Simplified to one charge in this toy dataset
